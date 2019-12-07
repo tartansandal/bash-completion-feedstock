@@ -20,7 +20,7 @@ source:
 
 build:
   number: 0
-  skip: True  # [win or osx]
+  skip: True  # [win]
 
 requirements:
   build:
@@ -33,13 +33,6 @@ test:
 
   requires:
     - bash >=4.1
-
-  commands:
-    # These have hard to meet dependencies and take along time to run
-    # - make check
-
-    # Ensure the library loads without error at least
-    - bash -e bash_completion
 
 about:
   home: https://github.com/scop/bash-completion
