@@ -1,11 +1,9 @@
-diff --git a/bash_completion b/bash_completion
-index d2a72b4e..2718c61f 100644
---- a/bash_completion
-+++ b/bash_completion
+--- old/bash_completion	2020-07-25 18:25:49.000000000 +1000
++++ new/bash_completion	2020-08-03 09:09:43.934049473 +1000
 @@ -24,6 +24,7 @@
  #   https://github.com/scop/bash-completion
  
- BASH_COMPLETION_VERSINFO=(2 10)
+ BASH_COMPLETION_VERSINFO=(2 11)
 +CONDA_BASH_COMPLETION_LOADED="Y"
  
  if [[ $- == *v* ]]; then
